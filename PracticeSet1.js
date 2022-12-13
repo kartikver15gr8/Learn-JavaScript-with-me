@@ -43,3 +43,8 @@ const Dictionary = {
 };
 
 console.log(Dictionary);
+
+// we can access the value of 'key' as given below
+
+console.log(Dictionary["Realm"]);
+console.log(Dictionary.Kartikey);
