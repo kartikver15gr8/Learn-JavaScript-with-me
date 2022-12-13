@@ -55,6 +55,6 @@ else {
     console.log("The number is not divisible by both 2 and 3.");
 }
 
-// Q6 Print "You an Drive" or "You cannot Drive" based on age being greater than 18 using ternary operator.
+// Q5 Print "You an Drive" or "You cannot Drive" based on age being greater than 18 using ternary operator.
 
 console.log("You can", (age >= 18? "Drive":"Not Drive!"));
