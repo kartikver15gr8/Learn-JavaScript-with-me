@@ -42,3 +42,23 @@ let arr = ["hello", "pal"];
 for(let i of arr){
     console.log(i);
 }
+
+// While Loop
+
+let ergonomics = 1;
+ergonomics = Number.parseInt(ergonomics);
+
+while(ergonomics<=10){
+    console.log(ergonomics);
+    ergonomics++;
+}
+
+
+// Do-While loop
+
+let i = 0;
+i = Number.parseInt(i);
+do{
+    console.log("Hello!");
+    i++;
+}while(i<5);
