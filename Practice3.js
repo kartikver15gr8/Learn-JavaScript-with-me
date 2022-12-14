@@ -38,3 +38,9 @@ function meanOfFiveNums(p,q,r,s,t){
 }
 
 console.log("The mean of p, q, r, s ,t is: ", meanOfFiveNums(1,2,3,4,5));
+
+// Using "Arrow Function" 
+const meanOfFive = (p,q,r,s,t) => {
+    return (p+q+r+s+t)/5;
+}
+console.log("The mean of p, q, r, s ,t is: ", meanOfFive(1,2,3,43,5));
