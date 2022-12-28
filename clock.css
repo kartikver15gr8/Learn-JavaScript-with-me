@@ -1,0 +1,23 @@
+*{
+    background: black;
+}
+
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#clock{
+    display: flex;
+    color: rgb(150, 102, 41);
+    align-items: center;
+    justify-content: center;
+    border-left: 7px solid gainsboro;
+    border-bottom: 7px solid gainsboro;
+    font-size: 120px;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
