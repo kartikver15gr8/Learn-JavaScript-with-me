@@ -62,3 +62,15 @@ do{
     console.log("Hello!");
     i++;
 }while(i<5);
+
+
+// An Arrow function for returning an array with the doubled values
+const doubleVal = (nums) => {
+  let result = [];
+  for (const num of nums) {
+    result.push(num * 2);
+  }
+  return result;
+}
+
+console.log(doubleVal(nums));
