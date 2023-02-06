@@ -34,3 +34,28 @@ console.log();
 for(let i in nums){
     console.log(i);
 }
+
+
+const sumArray = (array) => {
+  let sum = 0;
+  for (const elem of array) {
+    sum += elem;
+  }
+  return { sum };
+}
+
+console.log(sumArray([1, 3, 3, 4, 54, 646, 53]));
+
+
+// Finding maximum element
+const max = (array) => {
+  let max = 0;
+  for (const elem of array) {
+    if (elem > max) {
+      max = elem;
+    }
+  }
+  return max;
+}
+
+console.log(max([1, 3, 3, 4, 54, 646, 53]));
