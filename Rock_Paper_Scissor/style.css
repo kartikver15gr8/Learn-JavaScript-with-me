@@ -1,0 +1,35 @@
+*{
+    background: black;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    background: rebeccapurple;
+    border: 2px solid goldenrod;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 9px;
+    color: bisque;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+#clear{
+    height: 50px;
+    margin-top: 50px;
+    width: 100px;
+    background: rgb(207, 22, 22);
+    border: 2px solid black;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 9px;
+    color: bisque;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
